@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Validator;
 
 class AuthController extends ApiController
 {
-    private $TOKEN_AUTH = 'TAM_ROS_8';
+    private $TOKEN_AUTH = 'BASE_GO_LARAVEL';
 
     /**
      * Login the auth

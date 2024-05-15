@@ -13,8 +13,7 @@
                             {{ config('app.client_name') }}
                         </h3>
                         <p class="d-inline m-0">
-                            Aplikasi untuk manajemen laporan aktivitas dan patroli serta monitoring
-                            kehadiran karyawan
+                            Aplikasi {{ config('app.name') }} berbasis web
                         </p>
                     </div>
                 </div>
@@ -27,20 +26,8 @@
                     <form id="my-form" class="forms-sample" action="{{ route('login') }}" method="POST" novalidate>
                         @csrf
 
-                        @inputText(['title' => 'Username', 'name' => 'username', 'class' => $errors->has('username') ? ' is-invalid' : '', 'validation' => 'required'])
+                        @inputText(['title' => 'Email', 'name' => 'username', 'class' => $errors->has('username') ? ' is-invalid' : '', 'validation' => 'required'])
 
-                        {{-- <div class="form-group">
-                            <label for="username">Username</label>
-
-                            <input type="username" name="username"
-                                class="form-control form-control-sm {{ $errors->has('username') ? ' is-invalid' : '' }}"
-                                id="username" placeholder="username">
-                            @if ($errors->has('username'))
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $errors->first('username') }}</strong>
-                                </span>
-                            @endif
-                        </div> --}}
                         <div class="form-group">
                             <label for="exampleInputPassword1">{{ __('Password') }}</label>
                             <input type="password"
