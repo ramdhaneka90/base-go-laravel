@@ -17,15 +17,12 @@ class DivisionAndPositionSeeder extends Seeder
     {
         $data = [
             [
-                'name' => 'Security',
+                'name' => 'Divisi A',
                 'positions' => [
-                    'Deputy', 'Supervisi', 'Leader', 'Anggota',
-                ],
-            ],
-            [
-                'name' => 'Housekeeping',
-                'positions' => [
-                    'Leader', 'Anggota',
+                    'Posisi A',
+                    'Posisi B',
+                    'Posisi C',
+                    'Posisi D',
                 ],
             ],
         ];
