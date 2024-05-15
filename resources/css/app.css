@@ -1,0 +1,53 @@
+/* Navbar */
+.navbar-primary {
+  color: #064a95 !important;
+}
+
+/* Card */
+.card {
+  box-shadow: none;
+  border: 1px solid #eaeaea;
+}
+
+/* Select2 */
+.select2-container .select2-selection--single {
+  height: calc(1.8125rem + 2px) !important;
+  font-size: 0.8rem;
+  border-radius: 0.2rem;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 1.5;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+  white-space: normal !important;
+}
+
+/* Navs */
+.tab-pane {
+  border-left: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+}
+
+/* Table */
+.table.table-simple thead {
+  background-color: #edf3f4;
+}
+
+.table.table-simple thead tr th {
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px 10px;
+  text-transform: normal;
+  border: 1px solid #ccd2d2;
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+.table.table-simple tbody tr td {
+  vertical-align: top;
+  padding: 5px 8px;
+  border: 1px solid #ccd2d2;
+}
