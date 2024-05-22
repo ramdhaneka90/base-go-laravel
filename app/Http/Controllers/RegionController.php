@@ -13,8 +13,8 @@ class RegionController extends BaseModule
     public function __construct()
     {
         $this->module       = 'region';
-        $this->pageTitle    = 'Home';
-        $this->pageSubTitle = 'Home';
+        $this->pageTitle    = 'Wilayah';
+        $this->pageSubTitle = 'Wilayah';
     }
 
     public function index()

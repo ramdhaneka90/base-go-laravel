@@ -15,7 +15,7 @@ class AreaController extends BaseModule
     public function __construct()
     {
         $this->module       = 'area';
-        $this->pageTitle    = 'Home';
+        $this->pageTitle    = 'Area';
         $this->pageSubTitle = 'Area';
     }
 

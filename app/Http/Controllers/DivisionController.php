@@ -13,7 +13,7 @@ class DivisionController extends BaseModule
     public function __construct()
     {
         $this->module       = 'division';
-        $this->pageTitle    = 'Master Data';
+        $this->pageTitle    = 'Divisi';
         $this->pageSubTitle = 'Divisi';
     }
 

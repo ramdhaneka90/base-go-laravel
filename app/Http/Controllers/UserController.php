@@ -16,7 +16,7 @@ class UserController extends BaseModule
     public function __construct()
     {
         $this->module       = 'user';
-        $this->pageTitle    = 'Pengaturan';
+        $this->pageTitle    = 'User';
         $this->pageSubTitle = 'User';
     }
 
