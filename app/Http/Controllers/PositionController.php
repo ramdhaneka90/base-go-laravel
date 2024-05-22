@@ -14,7 +14,7 @@ class PositionController extends BaseModule
     public function __construct()
     {
         $this->module       = 'position';
-        $this->pageTitle    = 'Master Data';
+        $this->pageTitle    = 'Jabatan';
         $this->pageSubTitle = 'Jabatan';
     }
 

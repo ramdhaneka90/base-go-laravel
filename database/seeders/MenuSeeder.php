@@ -88,6 +88,16 @@ class MenuSeeder extends Seeder
                         'permissions' => ['index', 'create', 'edit', 'delete'],
                     ],
                     [
+                        'code' => 'position',
+                        'name' => 'Posisi',
+                        'custom_url' => 0,
+                        'url' => 'position.index',
+                        'icon' => 'fas fa-warehouse',
+                        'category' => 'admin',
+                        'sequence' => 0,
+                        'permissions' => ['index', 'create', 'edit', 'delete'],
+                    ],
+                    [
                         'code' => 'user',
                         'name' => 'User',
                         'custom_url' => 0,
